@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* exemplo se for usar classe */
+.button {
+    @apply bg-violet-500 px-4 h-10 rounded
+}
+
+body {
+    @apply bg-[#09090a] text-zinc-100
+}
